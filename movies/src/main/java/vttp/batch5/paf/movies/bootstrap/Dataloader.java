@@ -32,7 +32,7 @@ public class Dataloader {
 
     // File directory = new File("..");
 
-    File file = new File("movies_post_2010.zip");
+    File file = new File("/app/movies_post_2010.zip");
 
     if (file.exists()){
       System.out.println("exists");
