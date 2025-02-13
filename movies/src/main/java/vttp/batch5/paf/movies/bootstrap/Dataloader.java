@@ -30,9 +30,9 @@ public class Dataloader {
 
   public List<Movie> json2Movie() throws FileNotFoundException, IOException{
 
-    File directory = new File("/..");
+    File directory = new File("../app/movies");
 
-    File file = new File(directory,"movies_post_2010.zip");
+    File file = new File(directory,"/movies_post_2010.zip");
 
     if (file.exists()){
       System.out.println("exists");
