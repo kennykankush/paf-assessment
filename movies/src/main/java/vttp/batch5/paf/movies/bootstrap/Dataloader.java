@@ -30,7 +30,7 @@ public class Dataloader {
 
   public List<Movie> json2Movie() throws FileNotFoundException, IOException{
 
-    File directory = new File("../data");
+    File directory = new File(".");
 
     File file = new File(directory, "/movies_post_2010.zip");
 
