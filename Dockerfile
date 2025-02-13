@@ -11,6 +11,7 @@ FROM maven:3.9.9-eclipse-temurin-23
 WORKDIR /app
 
 COPY --from=builder /app/target/*.jar app.jar
+COPY --from=builder /app/movies_post_2010.zip movies_post_2010.zip
 
 ENV PORT=8080
 
